@@ -3,29 +3,29 @@
 - **✔️ U.S. Citizen**
 - 📞 phone: 954.801.1273
 - 📧 email: contact@michsa.me
-- 🌐 web: michsa.me
+- 🌐 web: [michsa.me](https://michsa.me)
 - 👩‍💻 GitHub: [@michsa](https://github.com/michsa)
 
 ## Summary
 
-- Senior full-stack software engineer with 6yrs experience
+- Senior full-stack software engineer with 6 years experience
 - Current stack: Node.js, Typescript, PostgreSQL, React, GraphQL/Apollo
 - Remote only (PST preferred)
 - Open to options but happy at Remind :)
 
 ## Work History
 
-| company      | dates        | role               | stack                                                 |
+| Company      | Dates        | Title              | Stack                                                 |
 | ------------ | ------------ | ------------------ | ----------------------------------------------------- |
 | Remind       | 2020-current | Software Engineer  | Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go |
 | SmartProcure | 2019-2020    | Software Developer | JS, React, Mobx, Feathers, MongoDB, ElasticSearch     |
 | Office Depot | 2017-2019    | Software Engineer  | Java, DB2, COBOL                                      |
-| ADT          | 2016         | Intern             | JS, Java, AngularJS, SOAP                             |
-| Avocent      | 2015         | Intern             | JS, Java, PostgreSQL                                  |
+| ADT          | 2016         | Application Development Intern             | JS, Java, AngularJS, SOAP                             |
+| Avocent      | 2015         | Software Development Intern             | JS, Java, PostgreSQL                                  |
 
 ## Education
 
-| degree                   | grad. | school                      |
+| Degree                   | Grad. | School                      |
 | ------------------------ | ----- | --------------------------- |
 | B.S. in Computer Science | 2017  | Florida Atlantic University |
 
@@ -33,11 +33,13 @@
 
 ### Remind
 
-- Availability schema
-- Lifecycle events
-- DateRange
-- Overhauled the message composer UI in Remind Hub
-- Betterscaling blog post
+- **Tutoring** (2021-current) -- platform to schedule, manage, and host tutoring sessions with Remind teachers
+  - Session lifecycle events: system for automated eventing around tutoring sessions (notifications, billing)
+  - Distance learning: video chat web app, built on top of Twilio's API
+- **Hub** (2020-2021) -- web and mobile messaging and administration platform for schools and families
+  - Message composer UI overhaul
+  - Auditor: message delivery status dashboard
+  - Blog post about Betterscaling, Remind's in-house container autoscaling service
 
 ### SmartProcure
 
@@ -48,8 +50,11 @@
 ### Office Depot
 
 - MCASA: warehouse management system, built in Java (migrated from C++ legacy code)
-  - Modernized team's development workflow (git, code review, test automation)
 - R&D on machine learning solutions for inventory & supply chain
+
+### ADT
+
+- Orchestration platform for ADT security system support & installation technicians
 
 ### Avocent
 
