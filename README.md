@@ -8,12 +8,12 @@
 
 ## Summary
 
-- Senior full-stack software engineer with 6 years experience
+- Full-stack software engineer with ~6y experience
 - Current stack: Node.js, Typescript, PostgreSQL, React, GraphQL/Apollo
-- Remote only (PST preferred)
-- Open to options but happy at Remind :)
+- Remote only (Pacific hours preferred)
+- Open to chat but happy at Remind :)
 
-## Work History
+### Work History
 
 | Company      | Dates        | Title              | Stack                                                 |
 | ------------ | ------------ | ------------------ | ----------------------------------------------------- |
@@ -23,7 +23,7 @@
 | ADT          | 2016         | Application Development Intern             | JS, Java, AngularJS, SOAP                             |
 | Avocent      | 2015         | Software Development Intern             | JS, Java, PostgreSQL                                  |
 
-## Education
+### Education
 
 | Degree                   | Grad. | School                      |
 | ------------------------ | ----- | --------------------------- |
@@ -31,51 +31,51 @@
 
 ## Projects
 
-### Remind
+#### Remind
 
-- **Tutoring** (2021-current) -- platform to schedule, manage, and host tutoring sessions with Remind teachers
+- [**Tutoring**](https://www.remind.com/tutoring) (2021-current) – platform to schedule, manage, and host tutoring sessions with Remind teachers
   - Session lifecycle events: system for automated eventing around tutoring sessions (notifications, billing)
   - Distance learning: video chat web app, built on top of Twilio's API
-- **Hub** (2020-2021) -- web and mobile messaging and administration platform for schools and families
+- [**Hub**](https://www.remind.com/hub) (2020-2021) – web and mobile messaging and administration app for schools and families
   - Message composer UI overhaul
   - Auditor: message delivery status dashboard
-  - Blog post about Betterscaling, Remind's in-house container autoscaling service
+- [Blog post about Betterscaling](https://engineering.remind.com/betterscaling/), Remind's in-house container autoscaling service
 
-### SmartProcure
+#### SmartProcure
 
 - [`contexture`](https://github.com/smartprocure/contexture): backend-agnostic querying & analytics framework
 - [`grey-vest`](https://github.com/smartprocure/grey-vest) & [`contexture-react`](https://github.com/smartprocure/contexture-react): design system, theming API, and React component library for contexture
 - [`futil`](https://github.com/smartprocure/futil-js): functional programming utils library (~400 GitHub stars)
 
-### Office Depot
+#### Office Depot
 
-- MCASA: warehouse management system, built in Java (migrated from C++ legacy code)
+- MCASA: Office Depot's warehouse management system, built in Java (migrated from C++ legacy code)
 - R&D on machine learning solutions for inventory & supply chain
 
-### ADT
+#### ADT
 
-- Orchestration platform for ADT security system support & installation technicians
+- Orchestration platform for security system support & installation
 
-### Avocent
+#### Avocent
 
-- Datacenter infrastructure management (DCIM) software -- import batching and thermal visualization components
+- Datacenter infrastructure management (DCIM) software: import batching and thermal visualization components
 
-## Personal projects
+### Personal Projects
 
-### Chores
+#### [Chores](https://github.com/michsa/chores)
 
 - Task management mobile app built with React Native + Redux
 
-### Menagerie
+#### [Menagerie](https://github.com/sand-bird/menagerie)
 
 - Simulation/management game made in Godot engine
 - Extensible content database written in JSON with JSON-schema validation
 - Custom syntax & parser for JSON-encoded predicates: token resolution, boolean operations, mapping & filtering
 
-### Cargo Shorts
+#### [Cargo Shorts](https://github.com/michsa/cargo-shorts)
 
 - Web extension for tab management (TypeScript, React + Redux, WebExtension API)
 
-### ☆’s MHGen Talisman Editor
+#### [☆’s MHGen Talisman Editor](https://sand-bird.github.io/talismans)
 
 - Single-page web app (JavaScript ES7, Vue, Vuex) for editing Monster Hunter: Generations save data
