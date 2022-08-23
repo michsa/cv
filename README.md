@@ -34,10 +34,13 @@
 #### Remind
 
 - [**Tutoring**](https://www.remind.com/tutoring) (2021-current) – platform to schedule, manage, and host tutoring sessions with Remind teachers
+  - Various projects around scheduling and availability
   - Session lifecycle events: system for automated eventing around tutoring sessions (notifications, billing)
-  - Distance learning: video chat web app, built on top of Twilio's API
+  - Tutoring for organizations: student rostering, token distribution and program management
+  - Billing management: per-session charges and refunds integrated with Remind Hub's billing platform, built on top of Stripe's API
+  - Distance learning: video chat web app used for tutoring sessions, built on top of Twilio's API
 - [**Hub**](https://www.remind.com/hub) (2020-2021) – web and mobile messaging and administration app for schools and families
-  - Message composer UI overhaul
+  - Message composer UI
   - Auditor: message delivery status dashboard
 - [Blog post about Betterscaling](https://engineering.remind.com/betterscaling/), Remind's in-house container autoscaling service
 
