@@ -8,20 +8,20 @@
 
 ## Summary
 
-- Full-stack software engineer with ~6y experience
-- Current stack: Node.js, Typescript, PostgreSQL, React, GraphQL/Apollo
+- Full-stack software engineer with ~7y experience
+- Current stack: Rust, PostgreSQL, Node.js, Typescript, GraphQL, React
 - Remote only (Pacific hours preferred)
 - Open to chat but happy at Remind :)
 
 ### Work History
 
-| Company      | Dates        | Title              | Stack                                                 |
-| ------------ | ------------ | ------------------ | ----------------------------------------------------- |
-| Remind       | 2020-current | Software Engineer  | Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go |
-| SmartProcure | 2019-2020    | Software Developer | JS, React, Mobx, Feathers, MongoDB, ElasticSearch     |
-| Office Depot | 2017-2019    | Software Engineer  | Java, DB2, COBOL                                      |
-| ADT          | 2016         | Application Development Intern             | JS, Java, AngularJS, SOAP                             |
-| Avocent      | 2015         | Software Development Intern             | JS, Java, PostgreSQL                                  |
+| Company      | Dates        | Title                          | Stack                                                       |
+| ------------ | ------------ | ------------------------------ | ----------------------------------------------------------- |
+| Remind       | 2020-current | Software Engineer              | Rust, Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go |
+| SmartProcure | 2019-2020    | Software Developer             | JS, React, Mobx, Feathers, MongoDB, ElasticSearch           |
+| Office Depot | 2017-2019    | Software Engineer              | Java, DB2, COBOL                                            |
+| ADT          | 2016         | Application Development Intern | JS, Java, AngularJS, SOAP                                   |
+| Avocent      | 2015         | Software Development Intern    | JS, Java, PostgreSQL                                        |
 
 ### Education
 
@@ -33,15 +33,22 @@
 
 #### Remind
 
-- [**Tutoring**](https://www.remind.com/tutoring) (2021-current) – platform to schedule, manage, and host tutoring sessions with Remind teachers
+- **HQ** (2023-current) – rewrite of Remind's [core datamodel](https://engineering.remind.com/Transitive-Closure-In-PostgreSQL/) and business logic in Rust and PostgreSQL
+  - Revamped Remind's messaging infrastructure to support multiple connectivity partners (Twilio, Sinch, etc) and more granular SMS campaign provisioning
+- [**Tutoring**](https://www.remind.com/tutoring) (2021-2023) – platform to schedule, manage, and host tutoring sessions with Remind teachers
   - Various projects around scheduling and availability
-  - Session lifecycle events: system for automated eventing around tutoring sessions (notifications, billing)
-  - Tutoring for organizations: student rostering, token distribution and program management
-  - Billing management: per-session charges and refunds integrated with Remind Hub's billing platform, built on top of Stripe's API
-  - Distance learning: video chat web app used for tutoring sessions, built on top of Twilio's API
+    - Tutor availability architecture
+    - Tutor matching – SQL algorithms to match new students with the best available tutor
+    - Reschedule requests – rescheduling sessions within our platform
+  - DateRange library – timestamp ranges compatible with Luxon DateTimes and PostgreSQL tstzranges
+  - Session lifecycle events – automated eventing around tutoring sessions (notifications, billing)
+  - Tutoring for organizations – student rostering, token distribution and program management
+  - Billing management – per-session charges and refunds integrated with Remind Hub's billing platform, built on top of Stripe's API
+  - Moderation tooling – session cancellations, no-shows, etc
+  - Distance learning – video chat web app used for tutoring sessions, built on top of Twilio's API
 - [**Hub**](https://www.remind.com/hub) (2020-2021) – web and mobile messaging and administration app for schools and families
   - Message composer UI
-  - Auditor: message delivery status dashboard
+  - Auditor – message delivery status dashboard
 - [Blog post about Betterscaling](https://engineering.remind.com/betterscaling/), Remind's in-house container autoscaling service
 
 #### SmartProcure
