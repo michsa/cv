@@ -32,7 +32,7 @@
 
 ## Projects
 
-#### ParentSquare (via acquisition)
+#### ParentSquare
 
 - Messaging team
   - Continued work on 10DLC support for both Remind and ParentSquare systems
