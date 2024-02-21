@@ -9,15 +9,16 @@
 ## Summary
 
 - Full-stack software engineer with ~7y experience
-- Current stack: Rust, PostgreSQL, Node.js, Typescript, GraphQL, React
+- Current stack: Rust, PostgreSQL, Ruby/Rails, Node.js, Typescript, GraphQL, React
 - Remote only (Pacific hours preferred)
-- Open to chat but happy at Remind :)
 
 ### Work History
 
 | Company      | Dates        | Title                          | Stack                                                       |
 | ------------ | ------------ | ------------------------------ | ----------------------------------------------------------- |
-| Remind       | 2020-current | Software Engineer              | Rust, Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go |
+| ParentSquare | 2024-current | Senior Software Engineer       | Rust, PostgreSQL, Ruby (Rails), MySQL, Typescript           |
+| Remind       | 2022-2024    | Senior Software Engineer       | Rust, PostgreSQL, Typescript, React, GraphQL, AWS, Ruby, Go |
+| Remind       | 2020-2022    | Software Engineer              | Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go       |
 | SmartProcure | 2019-2020    | Software Developer             | JS, React, Mobx, Feathers, MongoDB, ElasticSearch           |
 | Office Depot | 2017-2019    | Software Engineer              | Java, DB2, COBOL                                            |
 | ADT          | 2016         | Application Development Intern | JS, Java, AngularJS, SOAP                                   |
@@ -31,10 +32,18 @@
 
 ## Projects
 
+#### ParentSquare (via acquisition)
+
+- Messaging team
+  - Continued work on 10DLC support for both Remind and ParentSquare systems
+- Hacksprint - integrate Remind user/organization data into ParentSquare's data API
+
 #### Remind
 
-- **HQ** (2023-current) – rewrite of Remind's [core datamodel](https://engineering.remind.com/Transitive-Closure-In-PostgreSQL/) and business logic in Rust and PostgreSQL
-  - Revamped Remind's messaging infrastructure to support multiple connectivity partners (Twilio, Sinch, etc) and more granular SMS campaign provisioning
+- **HQ** (2023-2024) – rewrite of Remind's [core datamodel](https://engineering.remind.com/Transitive-Closure-In-PostgreSQL/) and business logic in Rust and PostgreSQL
+  - Revamped Remind's messaging infrastructure to:
+    - support multiple connectivity partners (Twilio, Sinch, etc)
+    - provision and manage SMS campaigns for individual client organizations (school districts) per modern 10DLC requirements
 - [**Tutoring**](https://www.remind.com/tutoring) (2021-2023) – platform to schedule, manage, and host tutoring sessions with Remind teachers
   - Various projects around scheduling and availability
     - Tutor availability architecture
