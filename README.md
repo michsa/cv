@@ -91,6 +91,10 @@
 - Extensible content database written in JSON with JSON-schema validation
 - Custom syntax & parser for JSON-encoded predicates: token resolution, boolean operations, mapping & filtering
 
+#### [Jeopardy](https://github.com/michsa/jeopardy)
+
+- Simple portable Jeopardy simulator intended as a knowledge-sharing tool (vanilla JavaScript, CSS, HTML)
+
 #### [Cargo Shorts](https://github.com/michsa/cargo-shorts)
 
 - Web extension for tab management (TypeScript, React + Redux, WebExtension API)
