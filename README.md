@@ -1,9 +1,23 @@
+---
+dest: cv.pdf
+stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
+body_class: markdown-body
+pdf_options:
+  format: A4
+  margin: 20mm
+  printBackground: true
+css: |-
+  .page-break { page-break-after: always; }
+  .markdown-body { font-size: 11px; }
+  .markdown-body pre > code { white-space: pre-wrap; }
+---
+
 # Michelle Saad
 
-- **✔️ U.S. Citizen**
-- 📞 phone: 954.801.1273
-- 📧 email: contact@michsa.me
-- 👩‍💻 GitHub: [@michsa](https://github.com/michsa)
+- **<img src="svg/check-mark.svg" width=10 height=10 /> U.S. Citizen**
+- <img src="svg/telephone-receiver.svg" width=10 height=10 /> Phone: 954.801.1273
+- <img src="svg/e-mail.svg" width=10 height=10 /> Email: contact@michsa.me
+- <img src="svg/woman-technologist.svg" width=10 height=10 /> GitHub: [@michsa](https://github.com/michsa)
 
 ## Summary
 
@@ -43,19 +57,18 @@
 - **HQ** (2023-2024) — rewrite of Remind's [core datamodel](https://engineering.remind.com/Transitive-Closure-In-PostgreSQL/) and business logic in Rust and PostgreSQL
   - Revamped Remind's messaging infrastructure to:
     - support multiple connectivity partners (Twilio, Sinch, etc)
-    - provision and manage SMS campaigns for individual client organizations (school districts) per modern 10DLC requirements
+    - provision and manage separate SMS campaigns for each individual client organization (school district) per the latest 10DLC requirements
 - [**Tutoring**](https://www.remind.com/tutoring) (2021-2023) — platform to schedule, manage, and host tutoring sessions with Remind teachers
-  - Various projects around scheduling and availability
-    - Tutor availability — architecture, UI and business logic for user-defined recurring availability and time off
-    - Session materialization — expanding recurring sessions & availability across timezones and DST shifts
-    - Tutor matching — SQL algorithms to match new students with the best available tutor
-    - Reschedule requests — request/approval flow for rescheduling sessions within our platform
-  - DateRange library — timestamp ranges compatible with Luxon DateTimes and PostgreSQL tstzranges
-  - Session lifecycle events — automated eventing around tutoring sessions (notifications, billing)
-  - Tutoring for organizations — student rostering, token distribution and program management
-  - Billing management — per-session charges and refunds integrated with Remind Hub's billing platform, leveraging Stripe's API
-  - Moderation tooling — dashboards for monitoring session cancellations, no-shows, etc
-  - Distance learning — video chat web app used for tutoring sessions, leveraging Twilio's API
+  - *Tutor availability* — architecture, UI and business logic for user-defined recurring availability and time off
+  - *Session materialization* — expanding recurring sessions & availability across timezones and DST shifts
+  - *Tutor matching* — SQL algorithms to match new students with the best available tutor
+  - *DateRange library* — timestamp ranges compatible with Luxon DateTimes and PostgreSQL tstzranges
+  - *Session lifecycle events* — automated eventing around tutoring sessions (notifications, billing)
+  - *Tutoring for organizations* — student rostering, token distribution and program management
+  - *Reschedule requests* — request/approval flow for rescheduling sessions within our platform
+  - *Billing management* — per-session charges and refunds integrated with Remind Hub's billing platform, leveraging Stripe's API
+  - *Moderation tooling* — live dashboards for monitoring session cancellations, no-shows, etc
+  - *Distance learning* — video chat web app used for tutoring sessions, leveraging Twilio's API
 - [**Hub**](https://www.remind.com/hub) (2020-2021) — web and mobile messaging and administration app for schools and families
   - Single-page message composer UI
   - Auditor — message delivery status dashboard
