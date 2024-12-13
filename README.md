@@ -9,25 +9,25 @@
 
 - Senior full-stack software engineer with 8 years of experience
 - Current stack: Rust, Postgres, Node.js, TypeScript/JavaScript, GraphQL, React
-- Remote strongly preferred (Pacific hours)
+- Remote only, available 9-5 Pacific (hours flexible)
 
 ### Work History
 
 | Company      | Dates        | Title                          | Stack                                                           |
 | ------------ | ------------ | ------------------------------ | --------------------------------------------------------------- |
-| ParentSquare | 2024-current | Senior Software Engineer       | Rust, Typescript, PostgreSQL, MySQL, GraphQL, AWS, Ruby (Rails) |
-| Remind       | 2022-2024    | Senior Software Engineer       | Rust, Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go     |
-| Remind       | 2020-2022    | Software Engineer              | Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go           |
-| SmartProcure | 2019-2020    | Software Developer             | JavaScript, React, MongoDB, Mobx, Feathers, ElasticSearch       |
-| Office Depot | 2017-2019    | Software Engineer              | JavaScript, Java, DB2, COBOL                                    |
+| ParentSquare | 2024–current | Senior Software Engineer       | Rust, Typescript, PostgreSQL, MySQL, GraphQL, AWS, Ruby (Rails) |
+| Remind       | 2022–2024    | Senior Software Engineer       | Rust, Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go     |
+| Remind       | 2020–2022    | Software Engineer              | Typescript, PostgreSQL, React, GraphQL, AWS, Ruby, Go           |
+| SmartProcure | 2019–2020    | Software Developer             | JavaScript, React, MongoDB, Mobx, Feathers, ElasticSearch       |
+| Office Depot | 2017–2019    | Software Engineer              | JavaScript, Java, DB2, COBOL                                    |
 | ADT          | 2016         | Application Development Intern | JavaScript, Java, AngularJS, SOAP                               |
 | Avocent      | 2015         | Software Development Intern    | JavaScript, Java, PostgreSQL                                    |
 
 ### Education
 
-| Degree                 | Grad. | School                      |
-| ---------------------- | ----- | --------------------------- |
-| BS in Computer Science | 2017  | Florida Atlantic University |
+| Degree                 | Year | Institution                 |
+| ---------------------- | ---- | --------------------------- |
+| B.S. in Computer Science | 2017 | Florida Atlantic University |
 
 ## Projects
 
@@ -104,7 +104,8 @@
 - Great at learning new stacks but JS will always be my love language
 - Loves: coffee, designing schemas and APIs, the web
 - Hates: pickles, optimization & performance tuning, semicolons
-- My dream job is working on a product that has tangibly improved my own quality of life. Spotify, Patreon, Airbnb and Discord top that list &ndash; please hmu if you're one of those <3
+- My dream job is working on a product that has tangibly improved my own quality of life.  
+  Spotify, Patreon, Airbnb and Discord top that list &ndash; please hmu if you're one of those <3
 
 ### SEO-friendly skills list
 
