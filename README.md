@@ -1,9 +1,9 @@
 # Michelle Saad
 
-- **<img src="svg/check-mark.svg" width=10 height=10 /> U.S. Citizen**
-- <img src="svg/telephone-receiver.svg" width=10 height=10 /> Phone: 954.801.1273
-- <img src="svg/e-mail.svg" width=10 height=10 /> Email: contact@michsa.me
-- <img src="svg/woman-technologist.svg" width=10 height=10 /> GitHub: [@michsa](https://github.com/michsa)
+- **<img src="svg/check-mark.svg" width=13 height=13 /> U.S. Citizen**
+- <img src="svg/telephone-receiver.svg" width=13 height=13 /> Phone: 954.801.1273
+- <img src="svg/e-mail.svg" width=13 height=13 /> Email: contact@michsa.me
+- <img src="svg/woman-technologist.svg" width=13 height=13 /> GitHub: [@michsa](https://github.com/michsa)
 
 ## Summary
 
@@ -33,29 +33,32 @@
 
 #### ParentSquare
 
-- Messaging team — continued work on 10DLC support for Remind and ParentSquare systems
-  - Automated provisioning "brands" & "campaigns" for thousands of customers from TCR (The Campaign Registry) via their REST API
-  - Automated buying tens of thousands of phone numbers from Sinch via their REST API
+- **10DLC** — continued work on delivering SMS and voice messages via dedicated "campaigns" for each of Remind & ParentSquare's thousands of school district customers
+  - *ABC Service (Allocations, Brands, Campaigns)* — expanded Remind's new messaging infrastructure to support ParentSquare districts and users
+  - Migrated hundreds of millions of existing number assignment records to the new system
+  - *Auto-10DLC* — automated provisioning of thousands of "brands" & "campaigns" (from The Campaign Registry) and tens of thousands of phone numbers (from Sinch) via their respective REST APIs
+  - *Brand-org matching* — tooling to pair "brands" with Remind organization records via fuzzy matching on various properties (district name, address, NCES ID, website, etc)
+  - *ABC audit* — tool to compare all local brand, campaign and phone number data with data from TCR and Sinch and report any discrepancies
 - Hacksprint — integrated Remind user/organization data into ParentSquare's data API
 
 #### Remind
 
 - **HQ** (2023-2024) — rewrite of Remind's [core datamodel](https://engineering.remind.com/Transitive-Closure-In-PostgreSQL/) and business logic in Rust and PostgreSQL
   - Revamped Remind's messaging infrastructure to:
-    - support multiple connectivity partners (Twilio, Sinch, etc)
-    - provision and manage separate SMS campaigns for each individual client organization (school district) per the latest 10DLC requirements
-- [**Tutoring**](https://www.remind.com/tutoring) (2021-2023) — platform to schedule, manage, and host tutoring sessions with Remind teachers
+    - support multiple connectivity partners (Twilio, Sinch, etc) for SMS and voice calls
+    - utilize a separate pool of sender numbers for each individual client organization (school district) per the latest A2P text messaging standards
+- [**Remind Tutoring**](https://www.remind.com/tutoring) (2021-2023) — platform to schedule, manage, and host tutoring sessions with Remind teachers
   - *Tutor availability* — architecture, UI and business logic for user-defined recurring availability and time off
   - *Session materialization* — expanding recurring sessions & availability across timezones and DST shifts
   - *Tutor matching* — SQL algorithms to match new students with the best available tutor
   - *DateRange library* — timestamp ranges compatible with Luxon DateTimes and PostgreSQL tstzranges
-  - *Session lifecycle events* — automated eventing around tutoring sessions (notifications, billing)
+  - *Session lifecycle events* — automated eventing around tutoring sessions (notifications, billing, etc)
   - *Tutoring for organizations* — student rostering, token distribution and program management
   - *Reschedule requests* — request/approval flow for rescheduling sessions within our platform
   - *Billing management* — per-session charges and refunds integrated with Remind Hub's billing platform, leveraging Stripe's API
   - *Moderation tooling* — live dashboards for monitoring session cancellations, no-shows, etc
   - *Distance learning* — video chat web app used for tutoring sessions, leveraging Twilio's API
-- [**Hub**](https://www.remind.com/hub) (2020-2021) — web and mobile messaging and administration app for schools and families
+- [**Remind Hub**](https://www.remind.com/hub) (2020-2021) — web and mobile messaging and administration app for schools and families
   - Single-page message composer UI
   - Auditor — message delivery status dashboard
 - [Blog post about Betterscaling](https://engineering.remind.com/betterscaling/), Remind's in-house container autoscaling service
@@ -81,7 +84,7 @@
 
 ### Personal Projects
 
-- **[levity.whimsy.fun](https://levity.whimsy.fun)** — handwritten personal website (HTML, CSS, vanilla JS)
+- **[levity.whimsy.fun](https://levity.whimsy.fun)** — handwritten personal website hosted on Neocities (HTML, CSS, vanilla JS)
   - **[Write!](https://levity.whimsy.fun/write/about)** — online speedwriting notepad with persistence to my server via the Neocities API
 - **[Menagerie](https://github.com/sand-bird/menagerie)** — monster simulation/management game made in Godot engine
   - Extensible content database written in JSON with JSON-schema validation
@@ -97,18 +100,18 @@
 
 ### About me
 
-- South Florida native, currently traveling the country looking for my forever home
-- Great at learning new stacks but JS is my love language
+- South Florida native, currently traveling the US in search of my forever home
+- Great at learning new stacks but JS will always be my love language
 - Loves: coffee, designing schemas and APIs, the web
 - Hates: pickles, optimization & performance tuning, semicolons
-- My dream job is working on a product I actually use and enjoy – Spotify, Patreon, Airbnb and Discord are on my shortlist, please hmu if you're one of those <3
+- My dream job is working on a product that has tangibly improved my own quality of life. Spotify, Patreon, Airbnb and Discord top that list &ndash; please hmu if you're one of those <3
 
 ### SEO-friendly skills list
 
-- lead the design, development and implementation of sophisticated, scalable software solutions
-- collaborate across departments with other engineers and cross-functional partners
-- translate business requirements into technical solutions
-- research and evaluate new technologies to enhance development processes
-- proactively troubleshoot complex technical issues
-- define project requirements, drive technical decisions, and own projects end-to-end
-- provide technical guidance and mentorship
+- Lead the design, development and implementation of sophisticated, scalable software solutions
+- Collaborate across departments with other engineers and cross-functional partners
+- Translate business requirements into technical solutions
+- Research and evaluate new technologies to enhance development processes
+- Proactively troubleshoot complex technical issues
+- Define project requirements, drive technical decisions, and own projects end-to-end
+- Provide technical guidance and mentorship to level up junior engineers

@@ -4,8 +4,8 @@
   "body_class": "markdown-body",
   "pdf_options": {
     "format": "A4",
-    "margin": "20mm",
+    "margin": "0.7in 1in 0.7in 0.8in",
     "printBackground": true
   },
-  "css": ".page-break { page-break-after: always; } .markdown-body { font-size: 11px; } .markdown-body pre > code { white-space: pre-wrap; }"
+  "css": ".page-break { page-break-after: always; } .markdown-body { font-size: 14px; } .markdown-body pre > code { white-space: pre-wrap; }"
 }
