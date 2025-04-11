@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "roses by the stairs",
+  "main": "index.js",
+  "scripts": {
+    "cv-pdf": "md-to-pdf cv.md",
+    "cv-html": "md-to-pdf cv.md --as-html",
+    "resume-pdf": "md-to-pdf resume.md",
+    "resume-html": "md-to-pdf resume.md --as-html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michsa/cv.git"
+  },
+  "author": "Michelle Saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michsa/cv/issues"
+  },
+  "homepage": "https://github.com/michsa/cv#readme",
+  "dependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
