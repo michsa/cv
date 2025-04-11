@@ -30,7 +30,7 @@ css: "
 ## Michelle Saad
 
 **<img src="svg/check-mark.svg" width=12 height=12 /> U.S. Citizen**  
-(+1) 954 801 1273 &sdot; contact@michsa.me  
+(+1) 954-801-1273 &sdot; contact@michsa.me  
 GitHub: [michsa](https://github.com/michsa) &sdot; LinkedIn: [michsa](https://linkedin.com/in/michsa)
 
 </div>
@@ -38,7 +38,7 @@ GitHub: [michsa](https://github.com/michsa) &sdot; LinkedIn: [michsa](https://li
 ### Summary
 
 - **Senior full-stack** software engineer with **9 years** of experience
-- Expertise in API & schema design, scheduling and availability applications, end-to-end feature development, technical & project leadership, and functional programming
+- Expertise in API & schema design, scheduling and availability applications, end-to-end feature development, technical & project leadership, and functional programming (mostly in JS)
 
 ### Education
 
@@ -47,14 +47,14 @@ GitHub: [michsa](https://github.com/michsa) &sdot; LinkedIn: [michsa](https://li
 ### Work History
 
 - 2024–2025 &sdot; **ParentSquare** (by acquisition of Remind) &mdash; *Senior Software Engineer*
-  - Redesigned Remind/ParentSquare's SMS messaging system to use multiple phone service providers and multiple pools of sender numbers in parallel, drastically reducing operating costs and negating the risk of catastrophic service interruptions
+  - Redesigned Remind/ParentSquare's SMS messaging system to use multiple phone service providers and multiple pools of sender numbers in parallel, drastically reducing operating costs and obviating the (previously high) risk of catastrophic service interruptions caused by 3rd party providers
 - 2020–2024 &sdot; **Remind** &mdash; *Senior Software Engineer* (22-'24), *Software Engineer* ('20-'22)
   - Led development of the availability & scheduling architecture for [**Remind Tutoring**](https://www.remind.com/tutoring), a platform to schedule, manage, and host tutoring sessions with Remind teachers
   - Designed critical schemas & APIs for HQ, Remind's next-generation datamodel and API monolith
   - Wrote a [blog post](https://engineering.remind.com/betterscaling/) about Betterscaling, Remind's in-house container autoscaling service
 - 2019–2020 &sdot; **SmartProcure/GovSpend**  &mdash; *Software Engineer*
-  - Developed the [design system]((https://github.com/smartprocure/grey-vest)), theming API, and [React component library]((https://github.com/smartprocure/contexture-react)) for [`contexture`](https://github.com/smartprocure/contexture), a backend-agnostic search & analytics framework
-  - Main contributor & maintainer of [`futil-js`](https://github.com/smartprocure/futil-js), a JavaScript functional programming library with ~400 GitHub stars
+  - Developed the [design system]((https://github.com/smartprocure/grey-vest)), theming API, and [React component library]((https://github.com/smartprocure/contexture-react)) for [`contexture`](https://github.com/smartprocure/contexture), SmartProcure's backend-agnostic search & analytics framework
+  - Main contributor & maintainer of [`futil-js`](https://github.com/smartprocure/futil-js), an open-source JavaScript functional programming library with ~1k GitHub stars
 - 2017–2019 &sdot; **Office Depot** &mdash; *Software Engineer*
   - Developed MCASA, an end-to-end warehouse management system used in all of Office Depot's 36 warehouses & 1400 stores
 - 2016 &sdot; **ADT** &mdash; *Application Development Intern*
@@ -65,7 +65,7 @@ GitHub: [michsa](https://github.com/michsa) &sdot; LinkedIn: [michsa](https://li
 - **[Menagerie](https://github.com/sand-bird/menagerie)** — monster simulation/management game made in Godot engine
   - Extensible (moddable) JSON-formatted content database with JSON-schema validation and a custom syntax & parser for JSON-encoded predicates
   - Needs-based (Sims-like) behavioral AI with modular actions composed from prerequisites
-- **[Write, dammit!](https://levity.whimsy.fun/write/about)** — dynamic speedwriting app hosted on Neocitites (can persist documents to my server via the Neocities API)
-- **[Chores](https://github.com/michsa/chores)** — task management mobile app built with React Native + Redux
+- **[Write, dammit!](https://levity.whimsy.fun/write/about)** — dynamic speedwriting app hosted on Neocities (can persist documents to my server via the Neocities API)
+- **[Chores](https://github.com/michsa/chores)** — task management Android app built with React Native + Redux
 - **[Jeopardy](https://github.com/michsa/jeopardy)** — tiny portable Jeopardy simulator built in HTML, CSS & vanilla JS
 - **[☆’s MHGen Talisman Editor](https://sand-bird.github.io/talismans)** — single-page web app for editing Monster Hunter: Generations save data

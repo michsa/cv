@@ -23,7 +23,7 @@ css: "
 
 ## Summary
 
-- Senior full-stack software engineer with 8 years of experience
+- Senior full-stack software engineer with 9 years of experience
 - Current stack: Rust, Postgres, Node.js, TypeScript/JavaScript, GraphQL, React
 - Full remote preferred, available 9-5 Pacific (hours flexible)
 
